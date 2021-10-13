@@ -88,3 +88,34 @@
   margin: 20px 10px 0 20px;
   font-size: 19px;
 }
+.header-card{
+  /* display: block; */
+  border: 1px solid black;
+  height: 220px;
+  width: 200px;
+  border-radius: 15px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  float: down;
+}
+.col-1{
+  border: 1px solid red;
+}
+.col-2{
+   border: 1px solid green;
+}
+.col-3{
+   border: 1px solid blue;
+}
+.col-4{
+   border: 1px solid black;
+}
+.col-5{
+  border: 1px solid gold;
+}
+.col{
+  width:20%;
+  display: flex;
+  float: left;
+}
