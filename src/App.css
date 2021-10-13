@@ -88,34 +88,53 @@
   margin: 20px 10px 0 20px;
   font-size: 19px;
 }
+.header-home{
+  background-color: rgb(82, 6, 6);
+  height: 1100px;
+  margin-top: -20px;
+}
+.header-home-txt{
+  /* border: 1px solid black; */
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 120px;
+}
+.header-home-txt h1{
+  color: rgb(253, 219, 0);
+  font-size: 37px;
+  padding-bottom: 10px;
+}
 .header-card{
   /* display: block; */
   border: 1px solid black;
   height: 220px;
   width: 200px;
   border-radius: 15px;
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
   background-repeat: no-repeat;
   /* background-size: cover; */
   float: down;
 }
 .col-1{
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .col-2{
-   border: 1px solid green;
+   /* border: 1px solid green; */
+   margin-top: 100px;
 }
 .col-3{
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
+   margin-top: 200px;
 }
 .col-4{
-   border: 1px solid black;
+   /* border: 1px solid black; */
+   margin-top: 100px;
 }
 .col-5{
-  border: 1px solid gold;
+  /* border: 1px solid gold; */
 }
 .col{
   width:20%;
-  display: flex;
   float: left;
 }
