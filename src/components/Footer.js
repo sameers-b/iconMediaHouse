@@ -1,3 +1,5 @@
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter  } from "react-icons/fa";
+
 const Footer = () => {
    return (
       <>
@@ -23,7 +25,16 @@ const Footer = () => {
              </div>
          </div>
          <div className="footer-bottom">
-
+            <div className="footer-info">
+              <p>copyright 2021, Icon Media House. Made with in Toronto.</p>
+            </div>
+            <div className="footer-icon">
+             <label> Follow us on:</label>
+              <span><FaFacebook /></span>
+              <span><FaInstagram /></span>
+              <span><FaLinkedinIn /></span>
+              <span><FaTwitter /></span>
+            </div>
          </div>
       </>
    )
